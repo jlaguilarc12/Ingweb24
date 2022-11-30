@@ -50,3 +50,32 @@ const {nombre,edad} = persona2;
 
 console.log(nombre);
 console.log(edad);
+
+const productos = [
+    {
+        nombre: 'Pan',
+        cantidad: 2,
+        precio: 500
+    },
+    {
+        nombre: 'Leche',
+        cantidad: 6,
+        precio: 3500
+    },
+    {
+        nombre: 'huevos',
+        cantidad: 30,
+        precio: 500
+    },
+    {
+        nombre: 'Carne',
+        cantidad: 2,
+        precio: 19500
+    }
+];
+let suma=0;
+for(let j=0;j<productos.length;j++){
+    suma = suma + (productos[j].cantidad*productos[j].precio);
+}
+
+console.log(`El total del valor de los productos es: ${suma}`);

@@ -1,0 +1,20 @@
+.contenedor-testimonio{
+    width: 1170px;
+    height: 370px;
+    margin: 10px 10px 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 3px 13px 1px black;
+}
+
+img{
+    width: 180px;
+    height: 150px;
+}
+
+.contenedor-texto-testimonio {
+    text-align: center;
+    padding: 40px;
+
+}
